@@ -1,6 +1,6 @@
 
 const lastDigits = function(str) {
-  str.match(/\d{4}$/g);
+  return +str.match(/\d{4}$/g)[0];
 };
 
 console.log(lastDigits('4534534534535'));
